@@ -1,0 +1,34 @@
+{
+  "name": "monokai4d",
+  "version": "1.0.1",
+  "displayName": "monokai4d",
+  "description": "monokai dark theme",
+  "publisher": "keman5",
+  "icon": "logo.png",
+  "engines": {
+    "vscode": "^1.12.1"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "galleryBanner": {
+    "color": "#0b7de0",
+    "theme": "dark"
+  },
+  "keywords": [
+    "monokai"
+  ],
+  "contributes": {
+    "themes": [{
+      "label": "monokai4d",
+      "uiTheme": "vs-dark",
+      "path": "./theme.json"
+    }]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/keman5/vs-theme.git"
+  },
+  "author": "keman5",
+  "license": "MIT"
+}
